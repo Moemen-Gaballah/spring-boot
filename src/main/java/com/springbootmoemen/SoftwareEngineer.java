@@ -22,6 +22,10 @@ public class SoftwareEngineer {
         this.techStack = techStack;
     }
 
+    public SoftwareEngineer() {
+
+    }
+
     public Integer getId() {
         return id;
     }

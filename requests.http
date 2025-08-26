@@ -7,3 +7,13 @@ GET http://localhost:8080
 GET http://localhost:8080/api/v1/software-engineers
 
 ###
+
+### GET request to example server
+POST http://localhost:8080/api/v1/software-engineers
+Content-Type: application/json
+
+{
+  "name": "Jamila",
+  "techStack": "Java, Spring boot"
+}
+###
